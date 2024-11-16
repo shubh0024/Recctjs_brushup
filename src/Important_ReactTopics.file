@@ -1,0 +1,106 @@
+##########Reactjs #################################
+
+props vs stats
+Hooks  like
+useState
+useEffect
+useContext
+useRef
+usereduce 
+
+--Higher order Functions/Compnents
+
+--Life cycle  methods of Compnents
+
+-class components -
+- constructor
+
+
+Mounting 
+updating 
+Unmounting
+handle error
+
+
+--State management  (All about data )
+props dring 
+useContext
+
+~~~~~~parent tree
+
+--Redux/Zustand 
+--how reacts wroks 
+--why reacts 
+--when redux-toolkit
+
+
+
+##Custom Hooks 
+-when use
+-code 
+
+##lazy loading 
+--code splititng 
+--chunking 
+--susupenses
+
+##React Query
+
+##virtual Dom 
+--Reconciliton
+--React Fiber
+--Rendering
+--Differ Algorithm 
+--Render How
+
+##SSR vs CSR(important )
+
+
+--SEO and performance tests
+
+##routing (RbAC tests)
+--react router
+--how to manage your protects against router attacks
+--role based route 
+
+################################------TESTING --------
+
+
+--TESTING
+
+react Testing 
+--compoenents and unit testing 
+
+##Async Tasks 
+--Api calls 
+--useEffects 
+--promises
+--fetches axios 
+
+//reuseability 
+//Modularity 
+//testability 
+
+
+##perfomance 
+(Thiner ui)
+--lazy loading
+--optimizing images 
+--js css 
+--write optimizing  code 
+--Bundler 
+
+--CDN Server
+
+##Styling 
+
+--Tailwind css
+--stylex-Facebook oriented styles
+--Bootstrap css
+--Material ui 
+--Basics css vs Scss
+
+
+
+
+
