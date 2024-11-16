@@ -30,6 +30,11 @@ import To_do_List from './component/To_do_List';
 import Page from './component/pages/Page';
 import LoginAuth from './component/loginauth/LoginAuth';
 import { Authprovider } from './component/loginauth/AuthContext';
+import DragComponent from './component/dragcomponent/DragComponent';
+import Translation from './component/LocaliZation/Translation';
+import { LocalizationProvider } from './component/LocaliZation/Localization';
+import FetchApi from './component/fetchApi/FetchApi';
+import FetchAllData from './component/fetchApi/FetchAlldata';
 
 
 function App() {
@@ -38,7 +43,7 @@ function App() {
   return (
     <div className="App">
       {/* <One/> */}
-      <h1 className='helo'>React Brush ups the logic</h1>
+      <h1  style={{color:'darkred'}} className='helo'>React Brush ups the logic</h1>
       {/* <Two/> */}
 
       {/* <Three/> */}
@@ -92,10 +97,21 @@ function App() {
 
 {/* <Page/> */}
 
-<Authprovider>
+{/* <Authprovider>
 
 <LoginAuth/>
-</Authprovider>
+</Authprovider> */}
+
+{/* <DragComponent/> */}
+{/* <LocalizationProvider>
+
+<Translation/>
+
+</LocalizationProvider> */}
+
+{/* <FetchApi/> */}
+<FetchAllData/>
+
 
 
     </div>

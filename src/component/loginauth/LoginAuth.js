@@ -11,6 +11,7 @@ console.log(user)
  
      <div>
       <h1>Login and Logout System</h1>
+      <h1>Logot hai app av</h1>
 {
     user ? (
         <div>
@@ -18,6 +19,7 @@ console.log(user)
         <button onClick={logout} >Logout</button>
         </div>
     ):(
+
         <button onClick={()=>login({username:'user123'})} >Login</button>
       
     )
