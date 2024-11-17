@@ -35,6 +35,10 @@ import Translation from './component/LocaliZation/Translation';
 import { LocalizationProvider } from './component/LocaliZation/Localization';
 import FetchApi from './component/fetchApi/FetchApi';
 import FetchAllData from './component/fetchApi/FetchAlldata';
+import MultipleState from './component/multiplestate/MultipleState';
+import Basicgallery from './component/basicgallery/Basicgallery';
+
+import Routesystem from './component/routes/Routes';
 
 
 function App() {
@@ -110,9 +114,13 @@ function App() {
 </LocalizationProvider> */}
 
 {/* <FetchApi/> */}
-<FetchAllData/>
+{/* <FetchAllData/> */}
 
+{/* <MultipleState/> */}
 
+{/* <Basicgallery/> */}
+
+<Routesystem/>
 
     </div>
   );
